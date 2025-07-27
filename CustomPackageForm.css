@@ -1,0 +1,113 @@
+/* General form spacing */
+.form-wrapper {
+  padding-top: 6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: #1f2937; /* Tailwind text-gray-800 */
+  font-family: sans-serif;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Section container */
+.form-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6;
+  margin-bottom: 2rem;
+}
+
+/* Section heading */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #9333ea; /* Tailwind purple-600 */
+  margin-bottom: 1rem;
+}
+
+/* Question text */
+.question-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Option buttons container */
+.option-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem; /* More space between buttons */
+  margin-top: 0.5rem;
+}
+
+/* Option button styling */
+.option-button {
+  border: 1px solid #d1d5db; /* Tailwind gray-300 */
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #f3e8ff; /* Light purple background */
+  color: #4c1d95; /* Tailwind purple-900 */
+  transition: all 0.2s ease;
+}
+
+.option-button:hover {
+  background-color: #ede9fe; /* Slightly darker purple */
+}
+
+/* Selected option button */
+.option-button.selected {
+  background-color: #7339aa; /* Tailwind purple-600 */
+  border-color: #7339aa;
+  color: white;
+}
+
+/* Submit and cancel button group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+/* Submit button */
+.button-submit {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border: none;
+  gap: 0.75rem;
+}
+
+.button-submit:hover {
+  background-color: #1f1f1f;
+}
+
+/* Cancel button */
+.button-cancel {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.button-cancel:hover {
+  background-color: #d1d5db;
+}
+
+/* Textarea styling */
+textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #d1d5db;
+  resize: vertical;
+}
